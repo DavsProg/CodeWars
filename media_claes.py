@@ -1,6 +1,6 @@
-def better_than_average(class_points, your_points):
+def mejor_que_el_promedio(puntos_clase, tus_puntos):
     # Calcula el promedio sumando todos los puntos y dividiéndolos por el número de estudiantes, incluyéndote a ti.
-    average = (sum(class_points) + your_points) / (len(class_points) + 1)
+    promedio = (sum(puntos_clase) + tus_puntos) / (len(puntos_clase) + 1)
     
     # Devuelve True si tu puntaje es mayor que el promedio, de lo contrario, devuelve False.
-    return your_points > average
+    return tus_puntos > promedio
