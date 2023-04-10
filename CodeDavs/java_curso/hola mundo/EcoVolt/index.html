@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EcoVolt - Pedir presupuesto de diseño solar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<h1>EcoVolt</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Servicios</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Pedir Presupuesto de Diseño Solar</h2>
+			<form>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required>
+				<label for="correo">Correo electrónico:</label>
+				<input type="email" id="correo" name="correo" required>
+				<label for="telefono">Teléfono:</label>
+				<input type="tel" id="telefono" name="telefono" required>
+				<label for="tama">Tamaño de instalación:</label>
+				<select id="tama" name="tama">
+					<option value="pequeña">Pequeña</option>
+					<option value="mediana">Mediana</option>
+					<option value="grande">Grande</option>
+				</select>
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje"></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 EcoVolt. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
